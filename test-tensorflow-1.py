@@ -12,6 +12,7 @@ for i in range(num_points):
 x_data = [v[0] for v in vectors_set]
 y_data = [v[1] for v in vectors_set]
 
+
 ''' ------------------------ Computational Graph Designing -------------------------------------'''
 W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 b = tf.Variable(tf.zeros([1]))
